@@ -1,0 +1,142 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*navbar design starts here*/
+.nav-log{
+
+    text-align: left;
+}
+
+.nav-heading h1{
+
+    text-align: right;
+}
+
+.navbar-menu{
+
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-menu a{
+
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+
+/*navbar design ends here*/
+
+/* profile design starts here */
+
+.profile .top-weather-icon{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 120px;
+    transition:  width 2s, transform 2s;
+    
+  }
+  .profile .top-weather-icon:hover{
+      width: 150px;
+    }
+
+.profile-desc h1{
+
+    font-family: 'Satisfy', cursive;
+    font-size: 4rem;
+  }
+  .profile-desc p{
+
+    color: gray;
+    margin: 0 auto ;
+    text-align: center;
+    width: 50%;
+
+  }
+
+  .profile .bottom-weather-icon{
+    position: absolute;
+    left: 20px;
+    width: 120px;
+    transition: width 2s, 2s;
+    
+    
+  }
+  .profile .bottom-weather-icon:hover{
+      width: 150px;
+    }
+
+    .profile::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+    /* profile design ends here */
+
+    /* about-me design starts here */
+
+    .about-me-image{
+
+        margin-top: 80px;
+
+    }
+    .about-me-image img{
+
+        width: 220px;
+    }
+
+    .about-me-desc p{
+        text-align: left;
+        text-align: justify;
+    }
+
+    /* about-me design ends here */
+
+   /* experience design starts here  */
+
+.experience{
+   padding: 1% 1.5%;  
+}
+   /* experience design ends here */
+
+.contact input,textarea{
+    width: 150%;
+   
+}  
+   .contact-me button{
+    margin: 25px 7px;
+    padding: 5% 10%;
+    
+    
+    
+   } 
+
+
+   /* footer section starts here */
+   .footer-menu{
+   margin-top: 20px;
+   margin-bottom: 10px;
+   padding: 10px;
+   }
+   .footer-menu a{
+    display: inline;
+    margin: 10px;
+    font-size: 1.3rem;
+}
+
+.footer-desc{
+    font-size: 1.3rem;
+    margin-top: 7px;
+}
