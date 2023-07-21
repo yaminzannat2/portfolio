@@ -296,7 +296,7 @@ animation-name: html;
 }
 @keyframes javascript{
     to{
-        width: 75%;
+        width: 70%;
     }
 }
 .skills-container li.bootstrap::after{
@@ -305,7 +305,7 @@ animation-name: html;
 }
 @keyframes bootstrap{
     to{
-        width: 80%;
+        width: 60%;
     }
 }
 .skills-container li.c::after{
@@ -313,7 +313,7 @@ animation-name: html;
 }
 @keyframes c{
     to{
-        width: 65%
+        width: 60%
     }
 }
 .skills-container li.python::after{
